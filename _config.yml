@@ -1,0 +1,13 @@
+title: Tanoru
+description: Apps by Tanoru.
+url: "https://tanoru-hq.github.io"
+
+# No theme gem and no plugins on purpose — this site uses its own layout in
+# _layouts/, so GitHub Pages can build it with zero external dependencies.
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
