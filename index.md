@@ -11,6 +11,8 @@ A shared, transparent paluwagan tracker — everyone in the group sees the same
 record in real time.
 
 - [App Terms](/lista-natin/terms/)
+- [Privacy Policy](/lista-natin/privacy/)
+- [Delete your account](/lista-natin/delete-account/)
 
 ## Contact
 

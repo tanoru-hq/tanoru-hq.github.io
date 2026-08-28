@@ -13,6 +13,8 @@ every peso in a paluwagan moves directly between members, outside the app.
 ## Legal
 
 - [App Terms](/lista-natin/terms/)
+- [Privacy Policy](/lista-natin/privacy/)
+- [Delete your account](/lista-natin/delete-account/)
 
 ## Contact
 
