@@ -3,6 +3,7 @@ layout: default
 title: ListaNatin App Terms
 description: The terms that govern use of the ListaNatin app.
 permalink: /lista-natin/terms/
+updated: September 15, 2026
 ---
 
 ## 1. About These App Terms
@@ -85,7 +86,7 @@ Contributions and a Session's activity log are permanent, append-only records. O
 
 Don't upload someone else's private information unless you have the right to share it — for example, another person's GCash details or ID. Content you upload can be reported by other members of the same Session, as described in Section 12.
 
-If you report a problem to us, the Service automatically collects your app version, and may also collect basic device information — platform, operating system version, and device model. This is kept deliberately light: not detailed activity logs, not behavioral tracking. If you attach a photo, the same caution applies as with proof images — please don't capture another member's private information, such as a name, an amount, or a reference number. The full itemized list of what we collect and why lives in our Privacy Policy (<https://tanoru-hq.github.io/lista-natin/privacy/>).
+If you report a problem to us, the Service automatically collects your app version, and may also collect basic device information — platform, operating system version, and device model. This is kept deliberately light: not detailed activity logs, not behavioral tracking. If you attach a photo, the same caution applies as with proof images — please don't capture another member's private information, such as a name, an amount, or a reference number. The full itemized list of what we collect and why lives in our Privacy Policy (https://tanoru-hq.github.io/lista-natin/privacy/).
 
 ## 11. Deactivating or Deleting
 
@@ -139,7 +140,7 @@ You agree to hold ListaNatin harmless from any third-party claim, cost, or expen
 
 We may update these App Terms from time to time — to reflect a change to the Service, to comply with the law, or to clarify how something already works. The version shown in the app is always the current one. If you keep using the Service after an update takes effect, that means you accept the updated App Terms.
 
-Last updated: August 29, 2026
+Last updated: September 15, 2026
 
 ## 18. Governing Law, Venue, and Time Limit
 
@@ -157,4 +158,4 @@ The Service is provided by Earth Jan Baquir Marzan, registered at 1146 Tramo St.
 
 ## 21. Privacy Notice
 
-Our Privacy Policy, at <https://tanoru-hq.github.io/lista-natin/privacy/>, explains what information we collect and why — including the basic device and app-version information collected automatically when you submit a problem report. The Service relies on Firebase, a Google product, to store and process this information, so some of that processing happens on infrastructure ListaNatin doesn't operate directly.
+Our Privacy Policy, at https://tanoru-hq.github.io/lista-natin/privacy/, explains what information we collect and why — including the basic device and app-version information collected automatically when you submit a problem report. The Service relies on Firebase, a Google product, to store and process this information, so some of that processing happens on infrastructure ListaNatin doesn't operate directly.
