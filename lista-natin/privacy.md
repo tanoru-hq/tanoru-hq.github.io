@@ -3,7 +3,7 @@ layout: default
 title: ListaNatin Privacy Policy
 description: What ListaNatin collects, why, who else can see it, and your rights.
 permalink: /lista-natin/privacy/
-updated: September 15, 2026
+updated: November 7, 2026
 ---
 
 ## 1. Who We Are, and What This Covers
@@ -35,7 +35,7 @@ We collect only what the Service needs to run a paluwagan and to reach you. Here
 - **No email address in our own database.** ListaNatin's own records never store your email address. If you sign in with Facebook and grant it the email permission, that address may exist inside Firebase Authentication's own managed record of your sign-in — a system operated by Google, separate from our database — but our app never reads or writes it as a stored field.
 - **No card numbers, bank details, or payment credentials of any kind.** As explained in Section 1, the Service never touches money, so there's nothing of that kind for us to hold.
 - **No behavioral tracking, no analytics, and no advertising events.** We don't watch how you use the app beyond what's needed to run it. One related detail, disclosed rather than buried: the iOS build configuration contains SKAdNetwork entries — Apple's ad-attribution framework — added automatically by the Facebook login SDK's setup. The app itself sends no ad events, and we use Facebook for sign-in only.
-- **No crash-reporting tool is active yet — but here's exactly what it will do once it is.** We've built an error-monitoring tool called Sentry into the app, to help us catch and fix crashes and bugs, but it's switched off by default in every environment today, and no released build of the app has ever run it — as of this writing, it watches nobody. When it's switched on for a released build, this is what it sends: a stack trace and basic device/operating-system information when the app hits an error, plus a lightweight signal each time the app starts or goes to the background (so we can tell how often the app runs into trouble, not what you do inside it) — no performance tracing, and no session replay. Each report is tagged with your User's id, so we can tell how many different people hit the same issue; it is not anonymous. Before anything leaves your device, we strip out your mobile number, your name and the names of anyone else involved, any note you've written, and any photo or image reference, so none of that reaches the tool even while it's active — and it never sees the network traffic for verifying a mobile number, looking up a member's contact, or deleting an account.
+- **A crash-reporting tool is active in released builds — here's exactly what it does.** Released builds of the app run an error-monitoring tool called Sentry, to help us catch and fix crashes and bugs. This is what it sends: a stack trace and basic device/operating-system information when the app hits an error, plus a lightweight signal each time the app starts or goes to the background (so we can tell how often the app runs into trouble, not what you do inside it) — no performance tracing, and no session replay. Each report is tagged with your User's id, so we can tell how many different people hit the same issue; it is not anonymous. Before anything leaves your device, we strip out your mobile number, your name and the names of anyone else involved, any note you've written, and any photo or image reference, so none of that reaches the tool — and it never sees the network traffic for verifying a mobile number, looking up a member's contact, or deleting an account.
 - **No location, and no device model or operating system version stored on our servers, outside of a problem report or the crash-monitoring tool described just above.** Your app version is read on your own device to show on your Profile screen.
 
 ## 3. Why We Collect It
@@ -63,7 +63,7 @@ If you send us a problem report, we keep it — the category, your note, your ap
 - **Google/Firebase** — our database, our authentication system, and our background jobs all run on Firebase, a Google product. This is where your name, photo, paluwagan data, notifications, and push token are actually stored, where your phone number is sent to deliver an SMS verification code, and — locked down separately, as Section 2 explains — where your mobile number itself lives. Some of those background jobs run on a schedule — sending due reminders and late alerts, recording payout releases, and closing grace periods. Others run on demand, triggered by something you or another member does: verifying a mobile number, looking up a member's contact, deleting an account, submitting a Contribution, resolving an approval or rejection, and marking notifications as read, among others.
 - **Expo's push notification service** (exp.host) — receives your push token and the content of a notification (its title, message, and related data) whenever we send you one, so it can be delivered to your device.
 - **Facebook (Meta)** — receives your login request if you sign in with Facebook, and returns your basic profile information to Firebase Authentication as part of that sign-in. We use Facebook for login only — no analytics or advertising events are sent to or from Facebook by the Service.
-- **Sentry** — only once we switch on the error-monitoring tool described in Section 2, and only for a released build. It's off today. When active, it receives exactly what Section 2 describes: crash reports and lightweight app-start/background signals, with your identifying details stripped out first.
+- **Sentry** — the error-monitoring tool described in Section 2, in released builds only. It receives exactly what Section 2 describes: crash reports and lightweight app-start/background signals, with your identifying details stripped out first.
 
 We don't sell your information to anyone, and we don't share it with any advertiser or data broker. No other outside service receives your data.
 
@@ -103,7 +103,7 @@ You must be at least 13 years old to use the Service — the same minimum age se
 
 We may update this Privacy Policy from time to time — to reflect a change to the Service, to comply with the law, or to describe something more clearly. The version published at this address is always the current one. If a change is significant, we'll make reasonable efforts to let you know inside the app.
 
-Last updated: September 15, 2026.
+Last updated: November 7, 2026.
 
 ## 10. Contact
 
